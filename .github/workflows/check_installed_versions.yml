@@ -1,0 +1,14 @@
+name: Show versions
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Create ssh config
+      run: |
+        docker -v
