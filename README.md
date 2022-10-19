@@ -1,0 +1,2 @@
+# actions_installerd_versions
+Github ActionsのUbuntuにインストールされているソフトウェアのバージョンを確認する
